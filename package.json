@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "yarn run build",
+    "_prepare": "yarn run build",
     "build": "tsc"
   },
   "keywords": [
