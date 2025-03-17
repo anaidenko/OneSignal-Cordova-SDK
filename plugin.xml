@@ -39,7 +39,7 @@
   <platform name="android">
     <framework src="com.onesignal:OneSignal:5.1.29" />
     <framework src="build-extras-onesignal.gradle" custom="true" type="gradleReference" />
-    <framework src="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10" />
+    <framework src="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.2" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="OneSignalPush" >
